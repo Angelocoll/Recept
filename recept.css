@@ -120,4 +120,21 @@ background-size: cover;
     button:active{
         opacity: 0.5;
     }
-    
+
+@media only screen and (max-width: 600px) 
+    {
+
+article{
+    width: 360px;
+}
+img{
+    height: 150px;
+}
+h2,h3,h4{
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+}
+        
+    }    
